@@ -1,0 +1,43 @@
+/* src/styles/about.css */
+.about-container {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .about-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logout-btn {
+    background-color: #e74c3c;  /* Red color */
+    color: white;
+    padding: 8px 16px;  /* Adjust padding for smaller size */
+    font-size: 0.9rem;  /* Smaller font size */
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    max-width: 200px;  /* Limit the width of the button */
+    margin-left: auto;
+    margin-right: auto;  /* Center the button */
+  }
+  
+  .logout-btn:hover {
+    background-color: #c0392b;  /* Darker red for hover effect */
+  }
+  

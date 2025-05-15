@@ -1,0 +1,71 @@
+/* Placement Page Container */
+.placement-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Placement List */
+  .placement-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  /* Placement Card */
+  .placement-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .placement-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Placement Card Title */
+  .placement-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Placement Details */
+  .placement-card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .placement-card strong {
+    font-weight: 700;
+  }
+  
+  /* Apply Button */
+  .apply-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* No Results */
+  .no-results {
+    font-size: 18px;
+    color: #ff4d4d;
+    font-weight: 600;
+  }
+  

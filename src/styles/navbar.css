@@ -1,0 +1,62 @@
+.navbar {
+  background-color: #2c3e50;  /* Blue-grey background */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;  /* Pushes content to both ends */
+  align-items: center;
+  width: 100%;  /* Ensure it spans the entire width */
+  position: fixed;
+  top: 0;
+  left: 0;  /* To prevent any off-screen positioning */
+  z-index: 1000;  /* Ensure it's on top of other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;  /* Align items to the left */
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #f39c12;  /* Yellow on hover */
+}
+
+/* Style for Dashboard as a link */
+.navbar-link {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #f39c12;
+}
+
+.logout-btn {
+  background-color: #e74c3c;  /* Red color */
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 20px;  /* Adds a little space between the logout button and the other links */
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;  /* Darker red on hover */
+}

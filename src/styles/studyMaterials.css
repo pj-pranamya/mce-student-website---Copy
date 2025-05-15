@@ -1,0 +1,86 @@
+.materials-container {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    min-width: 180px;
+  }
+  
+  .materials-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .material-card {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background: #f9f9f9;
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  
+  .material-card:hover {
+    transform: scale(1.03);
+    background-color: #fff;
+  }
+  
+  .material-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .material-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .no-results {
+    color: #777;
+    font-size: 1.1rem;
+  }
+  .upload-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    padding-top: 20px;
+  }
+  
+  .upload-form input,
+  .upload-form select,
+  .upload-form button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .upload-form button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-form button:hover {
+    background-color: #005fa3;
+  }
+    

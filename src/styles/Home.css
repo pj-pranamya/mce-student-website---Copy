@@ -1,0 +1,88 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fc;
+    color: #333;
+}
+
+/* Full page layout */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Hero Section */
+.intro-section {
+    flex: 1;
+    background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+.intro-section h1 {
+    font-size: 2.5rem; /* Reduced size */
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out;
+    color: black; /* Welcome text color changed to black */
+}
+
+.intro-section p {
+    font-size: 1.1rem; /* Reduced size of the text below the welcome */
+    margin-bottom: 40px;
+    max-width: 600px;
+    line-height: 1.6;
+    color: black; /* Changed to black for the text below */
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cta-btn {
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 500;
+    background: linear-gradient(to right, #ffffff, #e2e6ea);
+    color: #007BFF;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+    background: white;
+    color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    padding: 15px;
+    background-color: #002B5B;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}

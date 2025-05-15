@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "studymaterialuploader",
+  "private_key_id": "af9cac430b7715019762441612fb4fbf2ef39354",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrujtbiWiecNxC\nZqYZeQ+gjH+EMk0tckJWKyFB6foHA2SUokCnZcD+MRnVLVz6U42FtsJaC9v9P61D\nn6QDBLk6nuCUm3aRCEds6m5VkhRkXSxSGDlXzaRhY4s2bugs9h7zkJL1EM4EssA4\nqwsZ/cLMVmMsHzTfO6z7qTl9H4eyVImb6ayOFBRDilLwDNPBdXcYkjFyKwLcBoRd\nXORAvKLEarqFGtOT+VLDRp+yGRwV4kI6COznQjObGFomhuQvMc3+5b43iyxuvHet\n11aXI34yZs77zjGp0pXe0KJ7/O7TyK3u3EA5waQYWUmU3ThP9gr+1uFBiko5TTmc\nj/X9gsLLAgMBAAECggEAANI/eUhPzutRi36b5VK4Uvv0deGtaxldpiNHPSd2KvC0\nW0vn7PdPVB6+SAcA8NT4UkzRK/2lYtYaRJn0R7UhN+/7JvrKyYPsVc+VyBJp67IZ\nzrvYo4DcjmT3McMqBj0F87qJkD56VJ0izsck6+BUPU+mvcS1ApjfUqFdaeCiucmZ\n/NPdah6cmTw7vU7my1/EyNIz1X/x8cm7R757V5pSVubg0D97v3dqV7tTgc3EWNQe\nTH2GIP8LlcLVHmLsFGzp0ohWAc1+vWxGVFy+c3qkFZXMmWgXdhjcCbAjHIXRRFIM\nNdsXiOOzdHSrV1XbPc+7vV55jplREzYeqvSl0Bj6kQKBgQDj3HqyE4sRrXgFS7bT\ncZsmcl9FwjtkWs1DBo63HVMgUoaEl5/9uaYzXMlEae9TJDneSDThvZkXCLjEeRdb\nPgC/0xD4Sb46zzINn3BnWo1cmJy7DALD/ro7P4jv1vSAWHnY9ns8QQg1wKqY2Hjm\nSNxcJxvBgDrX8JvDhKZ7h8UkDwKBgQDA7ykBQkXqNT8DVwkkBlmaJM80vWsORUfI\n4o0dM1J0JNIB5rQDSHSmR/TCrCtLm6IaK9jnu7iBbSkxRNr32yTzjbbtuIiXfr25\nHO1jRQdvl8jCrLjAH/tOgbu6CkET0umVzrXB8eGFjQVvKClGZb/4nmGwf0E+gzmc\na4xwSIWJhQKBgDRg5U90EJ7SqmlFO1Slo82VsvLdMDvkZ5TFuB69vfMLJWLrW9q+\nR0c9SALS+zG4fRjsrkNKCxvxZE+9qjHOMevmf9sjUHhCUrYw9Wy8swwbBMQ2gZg+\nQN8HvtmrJu8t52yJVFDIfjOlA1I5SKlfDFCeqNG1QVGMPLIYFxEEZ7vfAoGAPUGx\n+zxXhm0xfJX9yPpbKJ3XTB94BifpCtcjhsnsvAOUyhW9we0XXFQsWkLf3Dml1jll\nvO3VPwKxuXrrKxbhPJMaKZAVjkQnaMbOeF5KZhwDGgxM/HMrD1oRiJgI4Yptr6rZ\n+qIZwJVtzEUsFbXopb9jtO4ygO6ZNBjRljTwcSECgYEAu4KzUbK2gMvNNCvrNLYr\n8YBYh6C/TcRxrx7YIEBEgeLPmAp4wuf9QROrWXULW8Pt/JlFzYZJ04yq8qb0rrDr\nDe6VnCYLrPkMZiUQttkpddiXgymnOBPnoH1oEatn2JuA8EjVkJ6J3Lor0AaRRQZS\n/eTkqVowfqMWOqU+9NjPIGk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "drive-uploader@studymaterialuploader.iam.gserviceaccount.com",
+  "client_id": "118309663823817502858",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/drive-uploader%40studymaterialuploader.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
