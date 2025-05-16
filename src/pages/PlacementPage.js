@@ -37,7 +37,14 @@ const PlacementPage = () => {
                 <p><strong>Role:</strong> {placement.role}</p>
                 <p><strong>Eligibility:</strong> {placement.eligibility}</p>
                 <p><strong>Last Date:</strong> {placement.lastDate}</p>
-                <a href={placement.applyLink} target="_blank" rel="noopener noreferrer" className="apply-btn">Apply Now</a>
+                <a
+                  href={placement.applyLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="apply-btn"
+                >
+                  Apply Now
+                </a>
               </div>
             ))
           ) : (
